@@ -1,0 +1,1301 @@
+
+ * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+          }
+    
+ .navbar {
+    text-align: right;
+     width: 100%;
+       height: 100px; 
+ 
+  }
+ 
+.navbar .collapse {
+   float:right;
+   text-align: right;
+    width: 100%;  height: 70px;
+     padding-left: 1000px;
+}
+ .navbar-brand {
+     position: relative;
+     left: 1rem;
+}
+.sd{ margin-top: 1rem; }
+.navbar-toggle{
+    margin-top: 2rem;
+    
+}
+
+.navbar .nav-item .nav-link {
+    color: #ffff;  
+transition: all .6s ease-in-out; 
+margin-left: .5rem;
+ }
+    .navbar .nav-item .nav-link:hover {
+    border-bottom: 1px solid #fff;
+    color:rgb(226, 34, 226)     
+    
+    }
+.x {
+width: 100%;
+    background-color: black;
+     text-align: left;
+     font-size: 2rem;
+display: none;
+     padding-top: 1rem;
+    font-family: sans-serif;
+
+}
+
+.x h1{
+border-bottom:1px solid white ;
+     margin-top: 1rem;
+color: white;
+     font-size: 2rem; cursor: pointer;font-family: sans-serif;
+
+}
+.x .b {
+width: 100%;
+    background-color: white;
+     text-align: left;
+     font-size: 1rem;
+display: none;
+}.x .b h2{
+border-bottom:1px solid black ;
+
+}
+.c{
+    text-align: center;
+
+}
+
+.x .c{
+width: 100%;
+    background-color: white;
+     text-align: left;
+     font-size: 2rem;
+display: none;
+}
+
+.x .d{
+width: 100%;
+    background-color: white;
+     text-align: left;
+     font-size: 2rem;
+display: none;
+}
+
+.d h2 {
+     margin-top: 1rem;
+border-bottom: 1px solid black;
+
+}
+
+
+    
+ 
+.banner {
+    width: 100%;
+    background-color: #666;
+    background-image: url('wes.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+position: relative;
+
+}
+.banner:before {
+    content: "";
+    float: left;
+    padding-bottom: 50%;
+}
+.banner:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.banner .content  {
+   max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: none;
+    color: white;
+    margin-top: 0%;
+}.banner .content h1 {
+  font-size: 6rem;
+  position: relative;
+  top: 14rem;
+}.banner .content p{
+width: 100%;
+position: relative;
+top: 14rem;
+font-size: 1.5rem;}
+.banner a {
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    background: rgba(0, 0,0, 0.2);
+    border: 3px solid #ff002a;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #ff002a;
+    transition: all .7s ease-in-out;
+}
+.banner a:hover {
+    border-radius: 5px;
+    color: #ff002a;
+    text-transform: uppercase;
+    border: 3px solid #ff002a;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: rgba(255, 251, 251, 0.11);
+}.con{
+    display: grid;
+                /*grid-template-columns: 1fr 1fr 1fr ; */
+                grid-template-columns:1fr 1fr ;
+                grid-gap: 1em; 
+                /*grid-auto-rows: 100px;*/
+                grid-auto-rows: minmax(100px,auto);
+                /*grid-column-gap: 1em;
+                grid-row-gap: 1em;*/
+
+ 
+}.rf{
+   width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-top: 10rem;
+text-align: center;
+    margin-right: 5rem;
+
+}.rf h2{
+    transition: all .7s ease-in-out;
+cursor: pointer;
+  border-radius:5% ;
+margin-left: 16rem;
+ text-align: center;
+margin-top: 3rem;
+    font-size: 1.5rem;
+    border: 1px solid ;
+    width: 30%;
+    height: 45px;
+    line-height: 2.3rem;
+    background-color: white;
+}.rf p1{
+  margin-right: 0rem;
+}
+
+.rf h2:hover{
+    border: 1px solid #ffff;
+ color: rgb(127, 14, 150);      ;
+ 
+}
+.rfs{
+   width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-top: 8rem;
+    margin-left: 0rem;
+    text-align: center;
+
+}.rfs h2{
+    transition: all .7s ease-in-out;
+    border-radius:5% ;
+margin-left: 17rem;
+    text-align: center;
+   margin-top: 3rem;
+       font-size: 1.5rem;
+       cursor: pointer;
+       border: 1px solid ;
+       width: 30%;
+       height: 45px;
+       line-height: 2.3rem;
+       background-color: white;
+}.rfs h2:hover{
+    border: 1px solid #ffff;
+ color: rgb(127, 14, 150);
+}
+.ax #rpo{
+
+    width: 90%;
+    height: 500px;
+    margin-left: 1rem;
+    border-radius:20px; }
+
+.ax img{
+
+width: 100%;
+height: 500px;
+margin-left: 1rem;
+border-radius:20px; }
+.ax{
+
+    margin-top: 5rem;    ;
+}
+.ax2 img{
+height: 500px;
+width: 90% ;
+border-radius:20px      ;
+}
+
+
+
+.ax1 img{
+    width: 90%;
+    height: 500px;
+    margin-left: 0rem;
+    border-radius:20px;    ;
+}
+
+.shit{
+width: 100%;
+    text-align: center;
+    margin-bottom: 7rem;
+    background-color: white;
+    margin-top: 5rem;
+    
+}
+
+
+.shit h3{
+    font-size: 5rem;
+    text-align: center;
+   width: 100%;
+
+    
+}
+
+
+.shit p{
+    font-size: 2rem;
+   width: 100%;
+text-align: center;
+    
+}
+
+.nine{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 0rem;
+    grid-gap: 1rem;
+    margin-left: 13rem;    }.nine img{
+        width: 100%;
+      
+
+        }
+
+.svg{
+    width: 100%;
+    height: 260px;
+    background-color: #fff;
+   display: flex;
+padding: 7rem;
+    margin-top: 2rem;
+
+}
+
+.yq{
+    width: 100%;
+    height: 160px;
+background-color: #ffff;
+    margin-top: 0rem;
+   
+    margin-left: 0rem;
+
+    
+
+}
+.nan{
+    transition: all .6s ease-in-out;
+    padding: 1rem;
+    background: black;
+    opacity: 1;
+
+}
+.yq h4{
+   font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+
+    
+
+}
+.yq span{
+    font-family: sans-serif;
+    font-weight: bold;
+   color: #867687;
+
+
+    
+
+}
+
+.imc{
+    box-shadow:  black;
+    width:100%;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 0rem;
+display: flex;
+   
+/*grid-column-gap: 1em;
+grid-row-gap: 1em;*/
+  
+}
+
+
+.imc img{
+margin-top: 2rem;
+    margin-left:0rem;
+
+
+}
+.what {
+    width: 180%;
+    height: 220px;
+    background-color: white;
+        margin-top: 0rem;
+        margin-left: 0rem;
+}
+
+
+.what span {
+line-height: 2rem;    
+position: relative;
+left: 1rem;    
+}
+
+
+.what h5{
+  font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+left: 1rem;    
+}
+.what h6{
+    font-size: 1rem;
+      font-weight: bold;
+      position: relative;
+  left: 1rem;    
+  }
+  .shu{
+    width:100%;
+     background-color: #ffff;
+     margin-top: 10rem;
+     height: 300px;
+ margin-right: -31rem;        
+  
+     
+     
+ }
+.shu  img{
+    width: 170px;
+    height: 160px;
+background-color: brown;
+    float: left;
+    z-index: 0;
+}
+.shu  img:hover{
+   border: 1px solid ;
+
+}
+
+
+
+.er,.ers,.ersd {
+   margin-top: 6rem;
+    margin-left: 2rem;
+    color: #ffff;
+
+}
+.er h1 {
+font-size: 2rem;
+color: white;}
+.er h2{
+font-size: 1.5rem;
+color: rgb(255, 255, 255);}
+.ers h1 {
+font-size: 2rem;
+color: white;
+}
+.ersd h1{
+margin-left: 1rem
+}.ersd p{
+margin-left: 1rem
+}
+.ers{
+   width: 100%;
+}
+.ersd h1 {
+font-size: 2rem;
+color: white;
+    margin-bottom: 2rem;
+}
+.five h8{
+    width: 100%;
+    cursor: pointer;
+    height: 100px;
+    background-color: black;
+    border: 10px solid black;
+    transition: all .6s ease-in-out;
+    font-size: 2rem;
+margin-left: 5rem;z-index: 1;
+color: #ffffff;
+border-radius: 15px;
+}
+.five h8:hover{
+    width: 100%;
+    height: 100px;
+    background: #ffff;
+    border: 10px solid  #ffff;
+    color: black;
+    
+  
+}
+.five{
+text-align: center;
+position: absolute;  
+    margin-top: 13rem;
+    z-index: 1;
+    margin-left: 30rem;
+  }
+
+.three {
+   z-index: 0;
+    margin-left:14rem ;
+position: relative;
+top: 8.8rem;    
+}
+
+.ers input{
+text-transform: uppercase;
+   width: 70%;
+    height: 30px;
+    background-color: black;
+    border: 1px solid #ffff;
+    padding: 1rem;
+border-radius: 20px;
+    
+}
+.ers #gg{
+  margin-top: 1rem;
+        
+    }
+    
+
+.glyphicon 	
+{
+margin-top: 1rem;
+ text-align: center;
+color: white;
+    background-color:#ff002a;
+    font-size: 2rem;
+    border: 5px solid #ff002a;
+}
+.ers {
+    width: 100%;
+}
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+
+}
+ 
+.fa-skype {
+    color: white;
+}
+
+/* Twitter */
+.fa-yahoo {
+    color: white;
+
+}
+ .f {
+margin-right: 1rem;}
+ 
+ .cb h2 {
+     margin-top: 1rem;
+border-bottom: 1px solid black;
+
+}
+.cb{
+   width:100%;
+    height: 400px;
+    background-color: black;
+         display: grid;
+                /*grid-template-columns: 1fr 1fr 1fr ; */
+                grid-template-columns:1fr 1fr 1fr;
+                grid-gap: 1em;  
+                /*grid-auto-rows: 100px;*/
+                grid-auto-rows: minmax(100px,auto);
+                /*grid-column-gap: 1em;
+                grid-row-gap: 1em;*/
+
+    
+
+    }
+
+    
+
+   
+    @media only screen and (max-width: 1024px){
+    .banner .content  {
+        max-width: 100%;
+         text-align: center;
+         margin: 0 auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-flow: column nowrap;
+         background-color: none;
+         color: white;
+         margin-top: 0%;
+         height: 200px;
+         position: relative;
+         top: 4rem;
+     }.banner .content h1 {
+       font-size: 2rem;
+       position: relative;
+       top: 0rem;
+     }.banner .content p{
+     width: 100%;
+     position: relative;
+     top: 0rem;
+     font-size: 1rem;}
+     .banner a {
+         border-radius: 5px;
+         color: #fff;
+         text-transform: uppercase;
+         background: rgba(0, 0,0, 0.2);
+         border: 3px solid #ff002a;
+         font-weight: bold;
+         padding: 0.5em 1em;
+         text-decoration: none;
+         font-size: 1rem;
+         background: #ff002a;
+         transition: all .7s ease-in-out;
+     }
+     .banner a:hover {
+         border-radius: 5px;
+         color: #ff002a;
+         text-transform: uppercase;
+         border: 3px solid #ff002a;
+         font-weight: bold;
+         padding: 0.5em 1em;
+         text-decoration: none;
+         background: rgba(255, 251, 251, 0.11);
+     }
+     
+    .navbar .collapse {
+
+        text-align: left;
+          height: 240px;
+          background: black;
+          border-radius: 20px;
+          padding-left: 0px;
+          color: #ffff;
+          position: relative;
+          top: 0rem;
+          border-bottom: none;
+          left: .5rem;
+     }
+     .navbar {
+       background: black;
+       width: 100%;
+       height: 60px;
+      }
+      .dropdown-menu {
+position: relative;
+top: 2rem;       
+       }
+      .navbar .nav-item .nav-link {
+        color:#ffff ;
+text-align: center;
+        font-size: 1.5rem;
+        font-family: fantasy;   
+        
+        }
+    
+     .navbar .nav-item .nav-link:hover {
+        border-bottom: 1px solid #ffff ;
+        color:rgb(226, 34, 226)     
+        
+        }
+.con{
+    display: grid;
+                    /*grid-template-columns: 1fr 1fr 1fr ; */
+                    grid-template-columns:1fr ;
+                    grid-gap: 1em; 
+                    /*grid-auto-rows: 100px;*/
+                    grid-auto-rows: minmax(100px,auto);
+                    /*grid-column-gap: 1em;
+                    grid-row-gap: 1em;*/
+        padding: 1rem;
+    
+    width: 100%;
+        background-color: white;
+    
+        }
+        .ax img{
+    width: 90%      ;
+    position: relative;
+left: 2rem;
+    }
+          
+          
+          
+          
+            .ax1 img{
+    width: 90% 
+     ;
+position: relative;
+left: 2.2rem;    }
+          
+          
+          
+           .ax2 img{
+    width: 90%      ;
+   
+        position: relative;
+    left: 2.2rem;
+    }
+    .nine{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 0rem;
+        position: relative;
+        right: 6rem;
+        grid-gap: 0rem;
+       
+        }.nine img{
+            width: 50%;
+          
+    
+            }
+          
+         .rfs{
+      
+            margin-right: 0rem;
+    
+    } 
+          
+        
+       .rfs{
+      
+        margin-left: 0rem;
+    
+    }   
+          
+     
+          .svg{
+        width: 100%;
+        height:100%;
+        background-color: white;
+        display:grid ;
+        grid-template-columns: 1fr;
+    grid-gap: 1em; 
+        margin-top: 1rem;
+        padding: 0rem;
+
+    /*grid-auto-rows: 100px;*/
+    grid-auto-rows: minmax(100px,auto);
+    
+    /*grid-column-gap: 1em;
+    grid-row-gap: 1em;*/
+    
+        
+    
+    }.imc{
+        box-shadow:  black;
+        width:70%;
+        height: 200px;
+        background-color: white;
+        margin-top: 5rem;
+    display: grid;
+    position: relative;
+    left: 2rem;
+        border-radius: 5%;
+    /*grid-template-columns: 1fr 1fr 1fr ; */
+    grid-template-columns: 20% 40%;
+    grid-gap: 1em;  
+    /*grid-auto-rows: 100px;*/
+    grid-auto-rows: minmax(100px,auto);
+    
+    /*grid-column-gap: 1em;
+    grid-row-gap: 1em;*/
+      
+    }
+    .what{
+    height: 190px;
+    margin-left: 2rem;}
+    
+    .what h5{
+        
+        font-size: 1rem;
+    }
+    
+     .imc img{
+    margin-top: 2rem;
+position: relative;
+left: 0rem;    
+    
+    }  
+      .yq{
+        width: 100%;
+        height: 200px;
+        position: relative;
+        background: #ffff;
+        left:0rem;
+
+        
+    
+    }
+    .yq span{
+        font-family: sans-serif;
+        font-weight: bold;
+       color: #867687;
+    position: relative;
+    left: 1rem;
+    
+        
+    
+    }
+      .cb{
+          margin-top: 20rem;
+       width:100%;
+        height: 100%;
+        color: #ffff;
+    cursor: pointer;
+        background-color: black;
+             display: grid;
+                    /*grid-template-columns: 1fr 1fr 1fr ; */
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 1em;  
+          padding: 0rem;
+                    /*grid-auto-rows: 100px;*/
+                    grid-auto-rows: minmax(100px,auto);
+                    /*grid-column-gap: 1em;
+                    grid-row-gap: 1em;*/
+        
+    
+        }
+    .banner {
+        width: 100%;
+       
+    }
+          
+       .er h2{
+       margin-left: 1rem;
+    }   
+          
+          
+          .er h1 {
+       margin-left: 1rem;
+    }
+    .er p {
+       margin-left: 1rem;
+       color: #ffff;
+    }
+        .er,.ers,.ersd {
+       margin: 0;
+    }
+     .er p{
+    font-size: 1.5rem;
+    }  
+          
+    .shu{
+        width:100%;
+         background-color: white;
+         margin-top: 10rem;
+     position: relative;    left: 0rem;        
+    
+     display: none;
+    
+         
+     } .shu img {
+       width: 100%;      
+    }
+    .five h8{
+       
+        background-color: white;
+        border: 10px solid #ffffff;
+        font-size: 1rem;
+            margin-left: 16rem;
+    
+    }
+    
+    .five{
+        width: 100%;
+    text-align: center;
+        position: absolute;
+        margin-top: 5rem;
+        display: none;
+      }
+    
+    .three {
+       z-index: 1;
+        width: 100%;
+        height: 200px;
+        
+    }   
+       .rfs h2{
+        position: relative;
+        right: 6rem;
+        width: 50%;
+        height: 45px;
+        line-height: 2rem;
+            ;
+    }.rf h2{
+      
+        width: 50%;
+        height: 45px;
+        line-height: 2rem;
+        position: relative;
+        right: 6rem;
+            ;
+    }
+    .rf{
+        width: 100%;
+         height: 300px;
+         background-color: white;
+         margin-top: 2rem;
+     text-align: center;
+         margin-right: 5rem;
+     
+     }
+    
+  }
+  @media only screen and (max-width: 450px){
+    .banner .content  {
+        max-width: 100%;
+         text-align: center;
+         margin: 0 auto;
+         display: flex;
+         font-size: 1rem;
+         justify-content: center;
+         align-items: center;
+         flex-flow: column nowrap;
+         background-color: none;
+         color: #ffff;
+         margin-top: 0%;
+         height: 200px;
+         position: relative;
+         top: 4rem;
+     }.banner .content h1 {
+       font-size: 1.5rem;
+       position: relative;
+       top: 2rem;
+     }.banner .content p{
+     width: 100%;
+     position: relative;
+     top: 1rem;
+     font-size: 1rem;}
+     .banner a {
+         border-radius: 5px;
+         color: #fff;
+         text-transform: uppercase;
+         background: rgba(0, 0,0, 0.2);
+         border: 3px solid #ff002a;
+         font-weight: bold;
+         padding: 0.5em 1em;
+         text-decoration: none;
+         font-size: 1rem;
+         background: #ff002a;
+         transition: all .7s ease-in-out;
+     }
+     .banner a:hover {
+         border-radius: 5px;
+         color: #ff002a;
+         text-transform: uppercase;
+         border: 3px solid #ff002a;
+         font-weight: bold;
+         padding: 0.5em 1em;
+         text-decoration: none;
+         background: rgba(255, 251, 251, 0.11);
+     }
+  
+    .navbar .collapse {
+
+        text-align: left;
+          height: 240px;
+          background: black;
+          border-radius: 20px;
+          padding-left: 0px;
+          color: #ffff;
+          position: relative;
+          top: 0rem;
+          border-bottom: none;
+          left: 0rem;
+     }
+     .navbar {
+       background: black;
+       width: 100%;
+       height: 60px;
+      }
+      .dropdown-menu {
+position: relative;
+top: 2rem;       
+       }
+      .navbar .nav-item .nav-link {
+        color:#ffff ;
+text-align: center;
+        font-size: 1.5rem;
+        font-family: fantasy;   
+        
+        }
+    
+     .navbar .nav-item .nav-link:hover {
+        border-bottom: 1px solid #ffff ;
+        color:rgb(226, 34, 226)     
+        
+        }
+.con{
+    display: grid;
+                    /*grid-template-columns: 1fr 1fr 1fr ; */
+                    grid-template-columns:1fr ;
+                    grid-gap: 1em; 
+                    /*grid-auto-rows: 100px;*/
+                    grid-auto-rows: minmax(100px,auto);
+                    /*grid-column-gap: 1em;
+                    grid-row-gap: 1em;*/
+        padding: 0rem;
+    
+    width: 90%;
+        background-color: #fff;
+    
+        }
+        .ax img{
+    width: 100%      ;
+    position: relative;
+left: 0rem;
+    }
+          
+          
+          
+    .ax1 img{
+        width: 90%;
+        height: 500px;
+        margin-left: 0rem;
+        border-radius:20px;    ;
+    }
+    
+          
+          
+          
+           .ax2 img{
+    width: 100%      ;
+    position: relative;
+
+    top: 3rem;
+    left: 1rem;
+    }
+    .nine{
+        width: 80%;
+        display: grid;
+        background: #ffff;
+        grid-template-columns: 1fr ;
+        padding: 0rem;
+        position: relative;
+        right: 10rem;
+        grid-gap: 0rem;
+       
+        }.nine img{
+            width: 100%;
+          
+    
+            }
+          
+         
+          
+        
+       .rfs{
+      
+        margin-left: 0rem;
+    
+    }   
+          
+     
+    .svg{
+        width: 100%;
+        height:700px;
+        background-color: #ffff;
+        display:grid ;
+        grid-template-columns: 1fr;
+    grid-gap: 0em; 
+        margin-top: 1rem;
+        padding: 0rem;
+
+    /*grid-auto-rows: 100px;*/
+    grid-auto-rows: minmax(100px,auto);
+    
+    /*grid-column-gap: 1em;
+    grid-row-gap: 1em;*/
+    
+        
+    
+    }.imc{
+        box-shadow:  black;
+        width:80%;
+        height: 200px;
+        background-color: #ffff;
+        margin-top: 0rem;
+    display: flex;
+       
+    flex-direction: column;
+    position: relative;
+    right: 10rem;
+    }
+    .what{
+        width: 90%;
+    height: 240px;
+    margin-left: 0rem;
+background: #ffff;
+text-align: center;
+position: relative;
+
+
+
+
+bottom: 0rem;}
+    
+    .what h5{
+        
+        font-size: 1rem;
+    }
+    
+     .imc img{
+    margin-top: 0rem;
+position: relative;
+left:4rem; 
+bottom: 0rem;
+    }  
+      .yq{
+        width:80%;
+        height: 210px;
+        position: relative;
+left: 1rem
+;        background: #ffff;
+text-align: center;
+    
+    }
+       
+      .cb{
+          margin-top: 20rem;
+       width:100%;
+        height: 100%;
+        color: #ffff;
+    cursor: pointer;
+        background-color: black;
+             display: grid;
+                    /*grid-template-columns: 1fr 1fr 1fr ; */
+                    grid-template-columns: 1fr ;
+                    grid-gap: 1em;  
+          padding: 0rem;
+                    /*grid-auto-rows: 100px;*/
+                    grid-auto-rows: minmax(100px,auto);
+                    /*grid-column-gap: 1em;
+                    grid-row-gap: 1em;*/
+        
+    
+        }
+    .banner {
+        width: 100%;
+        height: 400px;
+       
+    }
+          
+       .er h2{
+       margin-left: 1rem;
+    }   
+          
+          
+          .er h1 {
+       margin-left: 1rem;
+    }
+    .er p {
+       margin-left: 1rem;
+       color: #ffff;
+    }
+    .er,.ers,.ersd {
+        margin-top: 6rem;
+         margin-left: 0rem;
+         color: #ffff;
+     
+     }
+     .er p{
+    font-size: 1.5rem;
+    }  
+          
+    .shu{
+        width:100%;
+         background-color: white;
+         margin-top: 10rem;
+     position: relative;    left: 0rem;        
+    
+     display: none;
+    
+         
+     } .shu img {
+       width: 100%;      
+    }
+    .five h8{
+       
+        background-color: white;
+        border: 10px solid #ffffff;
+        font-size: 1rem;
+            margin-left: 16rem;
+    
+    }
+    
+    .five{
+        width: 100%;
+    text-align: center;
+        position: absolute;
+        margin-top: 5rem;
+        display: none;
+      }
+    
+    .three {
+       z-index: 1;
+        width: 100%;
+        height: 200px;
+        
+    }   
+       .rfs h2{
+        transition: all .7s ease-in-out;
+        cursor: pointer;
+          border-radius:5% ;
+          margin-left: 9rem;
+          text-align: center;
+        margin-top: 0rem;
+            font-size: 1.5rem;
+            border: 1px solid ;
+            width: 80%;
+            height: 45px;
+            line-height: 2.3rem;
+            background-color: white;
+            ;
+    }.rf h2{
+        transition: all .7s ease-in-out;
+    cursor: pointer;
+      border-radius:5% ;
+    margin-left: 9rem;
+     text-align: center;
+    margin-top: 2rem;
+        font-size: 1.5rem;
+        border: 1px solid ;
+        width: 80%;
+        height: 45px;
+        line-height: 2.3rem;
+        background-color: white;
+    }
+    .rf h1{
+      text-align: left;
+      position: relative;
+      left:  1rem;
+font-size: 2rem;           
+    }
+    .rfs h1{
+        text-align: left;
+        position: relative;
+        left: 1rem;
+  font-size: 2rem;           
+      }
+    .rf p1{
+      
+        position: relative;
+        left: 1rem;
+  font-size: 1.2rem;  
+      }
+    .rf{
+        width: 100%;
+         height: 300px;
+         background-color: white;
+         margin-top: 2rem;
+     text-align: left;
+         margin-right: 0rem;
+     
+     }
+     .rfs p{
+        position: relative;
+        left: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+       
+      }
+      .ax #rpo{
+
+        width: 100%;
+        height: 500px;
+        margin-left: 1rem;
+        border-radius:20px; }
+        .yq h4{
+            font-size: 2rem;
+             font-family: sans-serif;
+             font-weight: bold;
+            
+         
+             
+         
+         }
+         .yq span{
+             font-family: sans-serif;
+             font-weight: bold;
+            color: #867687;
+            font-size: 1rem;
+         
+         
+             
+         
+         }
+         .shit h3{
+            font-size: 2rem;
+            text-align: center;
+           width: 100%;
+        
+            
+        }
+        
+        
+        .shit p{
+            font-size: 1rem;
+           width:100%;
+        text-align: center;
+            
+        }
+       
+            
+    
+  }
+  
+  
